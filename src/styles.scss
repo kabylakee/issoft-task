@@ -69,17 +69,17 @@ img {
 
 .card {
   padding: 1rem;
-  border: #ccc 1px dotted;
   margin: 0.7rem 0;
 
   &-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    &-title {
+     color: white;
+    }
   }
 
   &-content {
     margin-bottom: .5rem;
+    color: #cccccc;
   }
 }
 
@@ -294,3 +294,6 @@ table th {
   }
 }
 
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
