@@ -1,0 +1,21 @@
+.post {
+  background-color: inherit;
+
+  &-header {
+    &-image {
+      background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+      background-size: cover;
+    }
+
+    &-subtitle {
+      color: #cccccc;
+    }
+  }
+
+  &-actions {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+  }
+}
